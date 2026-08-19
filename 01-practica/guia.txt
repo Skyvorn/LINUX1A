@@ -1,0 +1,21 @@
+--INSTALAR. UBUNTU--
+   1.Descargar la iso correspondiente a tu sistema desde la pagina oficial https://ubuntu.com
+   2.Descarga la maquina virtual en mi caso usare UTM, sin embargo se recomineda usar VirtualBox
+   3.Un,a vez instalada la maquina virtual procederemos a generarla, dsandole click al boton de más y seguido de esto a virtualizar
+   4.seleccionas virtualizar linux, y ahora procederemos a indicar cuantos recursos otorgaremos de el equipo principal para la maquina virtual
+   5.Lo recomdable es tomar la mitad de memoria ram es decir yo al tener 8GB asigno 4GB y en cuanto a cores de 1-2 es suficiente
+   6.Ahora seleccionas la opcion qeu es instalar desde un archivo ISO y ahi buscamos el LINUX Ubuntu anteriormente descargado
+   7.Seleccionamos cuanto espacio le asignaremos y guardamos la configuraciones
+   8.Y simplemente le presionas a play o inciar, se iniciaria linux y ya solo es estarle dando a continuar para que se instale lo necesario
+   9.Asignas nombre y contraseña de la maquina virtual y ahora si terminaria de instalarse y tendria linux virtualizado
+
+Crear repositorio en GITHUB y enlazarlo a Visual Studio Code
+   1.Primer paso es crear una cuenta GITHUB y que sea la misma que usaras en VSC.
+   2.Una vez creada hay que verificar si GIT ya esta instalado en nuestro equipo esto se hace verificando en Source control y ahi deberia de salir las opciones de crear o clonar repositorio si no sale no tenemos GIT y hay que instalarlo
+   3.Para instalar GIT tenemos que hacerlo desde su web ofical https://git-scm.com y elegir la verison de tu equipio ya se MAC,AMD o INTEL 
+   4.Ya solo quedaria ejecutar el programa esperar que se instale y reiniciar visual studio code
+   5.Una vez con GIT, para crear el repositorio tenemos que acceder a la pagina de GITHUB 
+   6.Ya en la pagina iremos hasta nuestro perfil, en la barra superior seleccionamos Repositories y ahi le damos click a New (Boton verde)
+   7.Una vez aqui le colocamos un nombre en este caso LINUX1A, sin descripcion, que sea de visibilidad publica, IMPORTANTE AÑADIR README,no .gitingore y de en licencia colocar GNU General Public License v3.0 y le damos crear repositorio
+   8.Ya creado nos vamos VSC, nos aseguramos de tener la misma cuenta, en el apartado de Source control seleccionamos clonar repositorio, le otrogamos los permisos y en la parte superior deberia aparecer nuestro repositorio recien creado.
+   9.Ya solo seleccionamos donde queremos alojar nuestro repositorio de manera local y listo.
