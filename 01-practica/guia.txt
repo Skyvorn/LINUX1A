@@ -19,3 +19,18 @@ Crear repositorio en GITHUB y enlazarlo a Visual Studio Code
    7.Una vez aqui le colocamos un nombre en este caso LINUX1A, sin descripcion, que sea de visibilidad publica, IMPORTANTE AÑADIR README,no .gitingore y de en licencia colocar GNU General Public License v3.0 y le damos crear repositorio
    8.Ya creado nos vamos VSC, nos aseguramos de tener la misma cuenta, en el apartado de Source control seleccionamos clonar repositorio, le otrogamos los permisos y en la parte superior deberia aparecer nuestro repositorio recien creado.
    9.Ya solo seleccionamos donde queremos alojar nuestro repositorio de manera local y listo.
+
+Subir repositorio
+    1.Nos vamo al aparato de source control
+    2.veremos los archivos que han sufrido cambios de manera local
+    3.para hacer que estos se vean reflejados en la nube, es ir a apartado de changes y en el archivo clickarla opcion de +
+    4.una vez hagamos eso nuestro archivo subira a stated changes ahi solo tendremos que escribir un mensaje y dar commiit
+    5.En el apartado de mensaje se colocara ya sea CREATE, UPDATE ó DELETE para llevar un mejor control de las acciones realizadas
+    6.en este caso usaremos CREATE seguido del nombre del archivo.
+    7.Al ser la primera vez nos dara un error de credenciales por lo tanto, abrimeros la terminal para solucionarlo
+    8.Escribiremos lo siguiente en la terminal 
+      git config --global user.name ¨NOMBRE APELLIDO¨
+      git config --global user.email ¨CORREO ELECTRONICO¨
+    9.una vez ejecutados estos comandos ya podemos reintentar darle a commit y veremos que ahora si nos dejara y aparecera un boton que diga SYNC
+    10.Le damos SYNC y aceptamos la alerta que saldra, emepezara a sincronizar solo hay que esperar
+    11. finalizado ese proceso podemos comprobar como en el repositorio ya se ha subido nuestro archiv.
